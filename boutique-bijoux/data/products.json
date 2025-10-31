@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nom": "Bracelet Minimaliste",
+    "prix": 29.99,
+    "image": "images/bracelet1.jpg",
+    "desc": "Bracelet fin en acier, design épuré."
+  },
+  {
+    "id": 2,
+    "nom": "Collier Soleil",
+    "prix": 49.99,
+    "image": "images/collier1.jpg",
+    "desc": "Collier pendentif soleil doré, élégant."
+  },
+  {
+    "id": 3,
+    "nom": "Bague Géométrique",
+    "prix": 39.99,
+    "image": "images/bague1.jpg",
+    "desc": "Bague au design moderne, finition polie."
+  },
+  {
+    "id": 4,
+    "nom": "Boucles Douces",
+    "prix": 24.99,
+    "image": "images/boucles1.jpg",
+    "desc": "Boucles d'oreilles légères, style contemporain."
+  }
+]

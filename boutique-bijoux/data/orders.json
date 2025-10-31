@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "date": "2025-10-31T10:29:30.133Z",
+    "items": [
+      {
+        "id": 3,
+        "nom": "Bague Géométrique",
+        "prix": 39.99,
+        "image": "images/bague1.jpg",
+        "qty": 14
+      },
+      {
+        "id": 1,
+        "nom": "Bracelet Minimaliste",
+        "prix": 29.99,
+        "image": "images/bracelet1.jpg",
+        "qty": 1
+      },
+      {
+        "id": 2,
+        "nom": "Collier Soleil",
+        "prix": 49.99,
+        "image": "images/collier1.jpg",
+        "qty": 1
+      },
+      {
+        "id": 4,
+        "nom": "Boucles Douces",
+        "prix": 24.99,
+        "image": "images/boucles1.jpg",
+        "qty": 1
+      }
+    ],
+    "total": 664.83
+  }
+]

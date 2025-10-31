@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Boutique Bijoux</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Bijoux<span class="accent">.</span></h1>
+      <nav>
+        <button id="btn-cart" class="cart-btn">Panier (<span id="cart-count">0</span>)</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Bijoux design — élégance minimaliste</h2>
+      <p>Découvre notre sélection de pièces modernes et raffinées.</p>
+    </section>
+
+    <section>
+      <h3>Produits</h3>
+      <div id="products" class="grid"></div>
+    </section>
+  </main>
+
+  <!-- Sidebar Panier -->
+  <aside id="cart" class="cart">
+    <div class="cart-inner">
+      <button id="close-cart" class="close">×</button>
+      <h3>Ton panier</h3>
+      <div id="cart-items"></div>
+      <div class="cart-footer">
+        <div>Total: <span id="cart-total">0.00</span> €</div>
+        <button id="checkout" class="primary">Passer commande</button>
+      </div>
+    </div>
+  </aside>
+
+  <footer class="site-footer">
+    <div class="container">© Boutique Bijoux — Projet d'apprentissage</div>
+  </footer>
+
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

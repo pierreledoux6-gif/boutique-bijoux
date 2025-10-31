@@ -1,0 +1,12 @@
+{
+  "name": "boutique-bijoux",
+  "version": "1.0.0",
+  "description": "Boutique de bijoux - projet didactique",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
