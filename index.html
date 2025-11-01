@@ -1,0 +1,19 @@
+﻿<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Boutique Bijoux</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header><h1>Bijoux.</h1><button id="btn-cart">Panier (<span id="cart-count">0</span>)</button></header>
+  <main>
+    <h2>Produits</h2>
+    <div id="products"></div>
+  </main>
+  <aside id="cart" style="display:none"><div id="cart-items"></div><div>Total: <span id="cart-total">0</span> €</div><button id="checkout">Commander</button></aside>
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
